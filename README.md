@@ -29,7 +29,7 @@ AI uses user inputs to provide the best results.
 
 🤸 Quick Start
 
-You can follow these steps to set up the project locally on your machine.-
+You'll be able to follow these steps to set up the project locally on your machine.-
 
 On the Client side-
 
@@ -43,22 +43,25 @@ On Server Side-
 
 PORT=8000
 
-BASE_URL="http://localhost:5500"
+BASE_URL="http://localhost:8080"
 
 CLIENT_URL="http://localhost:3000"
 
-# ENVIRONMENT
-NODE_ENV=development
 
 # DATABASE
 MONGO_URI=
 
 # ARCJET
+
 CLIENT_ID=
+
 ISSUER_BASE_URL=
+
 SECRET= 
 
 **Running the Project**
+
 npm run dev - client
+
 nodemon start - server
  
