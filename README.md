@@ -10,7 +10,9 @@ AI uses user inputs to provide best results.
  * React/Next.js
 
 🔗 Links-
+
 ⭐ MongoDB: Data base(https://account.mongodb.com/account/login)
+
 ⭐ Auth0: for bot protection, user login protection (https://auth0.com/)
 
 🔋 Features
