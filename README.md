@@ -41,7 +41,7 @@ On Server Side-
 
 # PORT
 
-PORT=8000
+PORT=8080
 
 BASE_URL="http://localhost:8080"
 
