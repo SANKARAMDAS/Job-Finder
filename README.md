@@ -1,7 +1,7 @@
-It's Job Portal application with authentication using the MERN Stack & AI.
+It's a Job Portal application with authentication using the MERN Stack & AI.
 
-It includes user authentication, database modeling, API architecture, security, AI for user interface and features etc.
-AI uses user inputs to provide best results. 
+It includes user authentication, database modeling, API architecture, security, AI for user interface and features, etc.
+AI uses user inputs to provide the best results. 
 
 ⚙️ Tech Stack- 
  * Node.js
@@ -19,7 +19,7 @@ AI uses user inputs to provide best results.
 
 👉 Implement AI: For accurate results and user Xp
 
-👉 Advanced Rate Limiting and Bot Protection: with Arcjet that helps you secure the Signup/Signin.
+👉 Advanced Rate Limiting and Bot Protection: with Auth0, which helps you secure the Signup/Signin.
 
 👉 Database Modeling: Models and relationships using MongoDB & Mongoose.
 
@@ -29,15 +29,22 @@ AI uses user inputs to provide best results.
 
 🤸 Quick Start
 
-Follow these steps to set up the project locally on your machine.-
-On Client side-
+You can follow these steps to set up the project locally on your machine.-
+
+On the Client side-
+
 Install the project dependencies using npm:
+
 npm install
 
 On Server Side-
+
 # PORT
+
 PORT=8000
+
 BASE_URL="http://localhost:5500"
+
 CLIENT_URL="http://localhost:3000"
 
 # ENVIRONMENT
