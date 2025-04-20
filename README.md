@@ -64,4 +64,6 @@ SECRET=
 npm run dev - client
 
 nodemon start - server
- 
+
+ [job-f!nder.webm](https://github.com/user-attachments/assets/3d4ac8da-9f6f-4f84-96f2-6eeb77eb0d93)
+
