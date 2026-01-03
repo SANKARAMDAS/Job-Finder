@@ -4,11 +4,9 @@ It includes user authentication, database modeling, API architecture, security, 
 
 ⚙️ Tech Stack-
 
-Node.js Express.js MongoDB(AWS) React/Next.js 🔗 Links-
+Node.js Express.js MongoDB React/Next.js 🔗 Links-
 
 ⭐ MongoDB: Data base(https://account.mongodb.com/account/login)
-
-⭐ AWS S3: Storage
 
 ⭐ Auth0: for bot protection, user login protection (https://auth0.com/)
 
@@ -19,8 +17,6 @@ Node.js Express.js MongoDB(AWS) React/Next.js 🔗 Links-
 👉 Advanced Rate Limiting and Bot Protection: with Auth0, which helps you secure the Signup/Signin.
 
 👉 Database Modelling: Models and relationships using MongoDB & Mongoose.
-
-👉 AWS S3: For storage.
 
 👉 Global Error Handling: Input validation and middleware integration.
 
@@ -44,7 +40,7 @@ BASE_URL="http://localhost:8080"
 
 CLIENT_URL="http://localhost:3000"
 
-DATABASE MONGO_URI= AWS_S3=
+DATABASE MONGO_URI=
 
 ARCJET CLIENT_ID=
 
@@ -55,6 +51,8 @@ SECRET=
 Running the Project
 
 npm run dev - client
+
+nodemon start - server
 
 nodemon start - server
  [job-f!nder.webm](https://github.com/user-attachments/assets/3d4ac8da-9f6f-4f84-96f2-6eeb77eb0d93)
