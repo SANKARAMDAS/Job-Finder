@@ -1,17 +1,14 @@
 It's a Job Portal application with authentication using the MERN Stack & AI.
 
-It includes user authentication, database modeling, API architecture, security, AI for user interface and features, etc.
-AI uses user inputs to provide the best results. 
+It includes user authentication, database modeling, API architecture, security, AI for user interface and features, etc. AI uses user inputs to provide the best results.
 
-⚙️ Tech Stack- 
- * Node.js
- * Express.js
- * MongoDB
- * React/Next.js
+⚙️ Tech Stack-
 
-🔗 Links-
+Node.js Express.js MongoDB(AWS) React/Next.js 🔗 Links-
 
 ⭐ MongoDB: Data base(https://account.mongodb.com/account/login)
+
+⭐ AWS S3: Storage
 
 ⭐ Auth0: for bot protection, user login protection (https://auth0.com/)
 
@@ -21,11 +18,13 @@ AI uses user inputs to provide the best results.
 
 👉 Advanced Rate Limiting and Bot Protection: with Auth0, which helps you secure the Signup/Signin.
 
-👉 Database Modeling: Models and relationships using MongoDB & Mongoose.
+👉 Database Modelling: Models and relationships using MongoDB & Mongoose.
+
+👉 AWS S3: For storage.
 
 👉 Global Error Handling: Input validation and middleware integration.
 
-👉 Implementation of Advanced Filter: Search Jobs using Location/Job title / Salary Package / Job Type / Skills/ Liked Jobs/ Applied Jobs 
+👉 Implementation of Advanced Filter: Search Jobs using Location/Job title / Salary Package / Job Type / Skills/ Liked Jobs/ Applied Jobs
 
 🤸 Quick Start
 
@@ -39,31 +38,24 @@ npm install
 
 On Server Side-
 
-# PORT
-
-PORT=8080
+PORT PORT=8080
 
 BASE_URL="http://localhost:8080"
 
 CLIENT_URL="http://localhost:3000"
 
+DATABASE MONGO_URI= AWS_S3=
 
-# DATABASE
-MONGO_URI=
-
-# ARCJET
-
-CLIENT_ID=
+ARCJET CLIENT_ID=
 
 ISSUER_BASE_URL=
 
-SECRET= 
+SECRET=
 
-**Running the Project**
+Running the Project
 
 npm run dev - client
 
 nodemon start - server
-
  [job-f!nder.webm](https://github.com/user-attachments/assets/3d4ac8da-9f6f-4f84-96f2-6eeb77eb0d93)
 
